@@ -47,6 +47,53 @@
   
   /* CSS Reset
   -------------------------------------------------------------*/
+  .bg-video{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.bg-video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.main-heading{
+  position: relative;
+}
+
+.main-heading h2{
+  font-weight: bold;
+  
+}
+.main-heading p{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.main-heading a{
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-heading a:hover{
+  color: black;
+  background-color: black;
+  font-weight: 600;
+}
   *,
   *::before,
   *::after {
